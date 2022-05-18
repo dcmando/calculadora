@@ -14,7 +14,7 @@ public class CalculadoraController {
 	public String index(Model modelo)
 	{
 		modelo.addAttribute("calcu", new Calculadora());
-		return "/index";
+		return "index";
 	}
 	
 	@PostMapping("/resultado")
@@ -22,6 +22,6 @@ public class CalculadoraController {
 	{
 		calcu.Calcular();
 		modelo.addAttribute("calcu", calcu);
-		return "/index";
+		return "index";
 		}
 }
