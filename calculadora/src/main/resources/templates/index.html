@@ -29,7 +29,7 @@
 	<div class="row">
 			<div class="col-3"></div>
 			<div class="col-6">
-				<form action="#" th:action="@{/resultado}" th:object="${calculadora}" method="post">
+				<form action="#" th:action="@{/resultado}" th:object="${calcu}" method="post">
 				<p>Introduce un número: <input type="text" th:field="*{num1}" class="form-control" required="required" /></p>
 				<p>Introduce otro número: <input type="text" th:field="*{num2}" class="form-control" required="required" /></p>
 				<p>Selecciona la operación: 
