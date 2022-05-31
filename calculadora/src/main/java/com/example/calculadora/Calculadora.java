@@ -1,24 +1,24 @@
 package com.example.calculadora;
 
 public class Calculadora {
-	private double num1;
-	private double num2;
+	private int num1;
+	private int num2;
 	private char operador;
-	private double resultado;
+	private float resultado;
 	
-	public double getNum1() {
+	public int getNum1() {
 		return num1;
 	}
 	
-	public void setNum1(double num1) {
+	public void setNum1(int num1) {
 		this.num1 = num1;
 	}
 	
-	public double getNum2() {
+	public int getNum2() {
 		return num2;
 	}
 	
-	public void setNum2(double num2) {
+	public void setNum2(int num2) {
 		this.num2 = num2;
 	}
 	
@@ -34,7 +34,7 @@ public class Calculadora {
 		return resultado;
 	}
 	
-	public void setResultado(double resultado) {
+	public void setResultado(float resultado) {
 		this.resultado = resultado;
 	}
 
